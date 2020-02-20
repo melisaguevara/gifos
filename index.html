@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gifos</title>
+    <link rel="stylesheet" href="./Estilos/estilo-tema1.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</header>
+
+    <div class="contenedor">
+
+        <section class="nav">
+
+            <nav>
+                <div class="nav-left">
+                    <figure class="logo"><img src="./Imagenes/gifOF_logo.png" alt="gifos" /></figure>
+                </div>
+
+                <div class="nav-right">
+
+                    <a class="boton1" href="upload.html"  id="crear" ><span>Crear Gifos</span></a>
+
+                    <div class="botones-tema">
+
+                        <button class="boton1" onclick="mostrarEstilos()">
+                            <span>Elegir tema</span>
+
+                        </button>
+
+                        <button class="boton1" id="flecha" onclick="mostrarEstilos()">
+                            <span class="dropdown">
+
+                                <!-- <figure><img src="./Imagenes/dropdown.svg"/></figure> -->
+                                <img src="./Imagenes/dropdown.svg" alt="flecha-dropdown"/>
+
+                            </span>
+
+                        </button>
+
+                        <a href="upload.html" class="boton2">Mis Gifos</a>
+                        
+                        <div class="estilos">
+
+                            <button class="boton-estilo" id="day" onclick="sailorDay()">Sailor Day</button>
+                            <button class="boton-estilo" id="night" onclick="sailorNight()">Sailor Night</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <div class="barra-buscar">
+                Buscar
+            </div>
+
+            <div class="buscador">
+
+                <input type="text" class="busqueda" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"
+                    id="input-busqueda" >
+
+                <button class="search" onclick="getSearchResults()">
+                    <!-- <figure><img class="lupa" src="./Imagenes/lupa_inactive.svg" /></figure> -->
+                    <img class="lupa" src="./Imagenes/lupa_inactive.svg" alt="buscar"/>
+                    <span>Buscar</span>
+                </button>
+
+                <!-- <div class="buscador2">
+
+                    <div>Sug1</div>
+
+                    <div>Sug2</div>
+
+                    <div>Sug3</div>
+
+                </div> -->
+
+            </div>
+
+
+        </section>
+
+        <section class="sugerencias">
+
+            <div class="seccion-titulo">Hoy te sugerimos:</div>
+
+            <div class="sugerencia">
+
+                <div class="container">
+                    <span class="hashtag">#...
+                        <button class="x"></button>
+                    </span>
+                    <button class="ver-mas">Ver más...</button>
+                </div>
+
+                <div class="container">
+                    <span class="hashtag">#...
+                        <button class="x"></button>
+                    </span>
+                    <button class="ver-mas">Ver más...</button>
+                </div>
+
+                <div class="container">
+                    <span class="hashtag">#...
+                        <button class="x"></button>
+                    </span>
+                    <button class="ver-mas">Ver más...</button>
+                </div>
+
+                <div class="container">
+                    <span class="hashtag">#...
+                        <button class="x"></button>
+                    </span>
+                    <button class="ver-mas">Ver más...</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="tendencias">
+
+            <div class="seccion-titulo">Tendencias:</div>
+
+            <div class="tendencia">
+
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+                <div class="container2"></div>
+
+            </div>
+
+
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

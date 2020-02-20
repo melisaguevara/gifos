@@ -1,0 +1,297 @@
+* {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+header,
+.barra-buscar,
+.hashtag {
+  font-family: "Chakra Petch", sans-serif;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 0;
+  height: 23px;
+  background-image: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+  box-shadow: 0 1px 0 0 #110038;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  width: 99%;
+  padding-left: 1%;
+}
+
+body {
+  background-color: #110038;
+}
+
+header {
+  box-shadow: 0 1px 0 0 #110038;
+  font-weight: 400;
+}
+
+.contenedor {
+  max-width: 1195px;
+  margin: auto;
+  margin-top: 3%;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.volver {
+  display: inline-block;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 3%;
+  vertical-align: middle;
+}
+
+.ventana {
+  background: #e6e6e6;
+  box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  width: 60%;
+  margin: auto;
+  margin-top: 3%;
+  overflow: auto;
+}
+
+.window {
+  display: inline-block;
+  margin: 5%;
+  margin-bottom: 30%;
+}
+
+.instrucciones {
+  float: right;
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.botones {
+  width: 55%;
+  float: right;
+  justify-content: center;
+}
+
+.botones button {
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  float: right;
+  width: 144px;
+  height: 36px;
+}
+
+.cancelar,
+.repetir {
+  background: #fff4fd;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+}
+
+.comenzar,
+.capturar,
+.camara,
+.subir {
+  background: #f7c9f3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+}
+
+.seccion-titulo {
+    background: #fffafe;
+    border: 1px solid #2e32fb;
+    box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #110038;
+    margin-top: 4%;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    padding: 4px;
+  }
+
+.ventana-captura {
+  display: none;
+  background: #e6e6e6;
+  box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  width: 60%;
+  margin: auto;
+  margin-top: 3%;
+  justify-content: center;
+  overflow: auto;
+}
+
+.captura {
+  display: inline;
+}
+
+video,
+.subiendo {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  width: 75%;
+  height: 90%;
+  background: #ffffff;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+  display: flex;
+}
+
+.subiendo {
+  display: none;
+  font-weight: 600;
+  display: block;
+}
+
+.subiendo figure {
+  margin: 5% auto;
+  padding: 0px;
+  max-width: 50px;
+}
+
+.subiendo div {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.cancelar2 {
+  background: #fff4fd;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  float: right;
+  margin: 3%;
+  padding: 2%;
+  width: 130px;
+}
+
+.preview {
+  display: none;
+  margin: 3%;
+}
+
+.preview-gif {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #e6e6e6, inset 2px 2px 0 0 #000000;
+}
+
+.exito {
+  float: right;
+  display: none;
+  margin-top: 5%;
+  margin-right: 12%;
+  /* margin-right: 15%;
+    margin-top: 8%; */
+  width: fit-content;
+  height: fit-content;
+}
+
+/* .botones-exito {
+  width: 48%;
+  float: right;
+    justify-content: center;
+  } */
+
+.botones-exito button {
+  display: block;
+  margin-top: 5%;
+  background: #fff4fd;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+  padding: 5%;
+  width: 160px;
+}
+
+.botones-grabar,
+.botones-listo,
+.botones-subir {
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  float: right;
+  display: flex;
+  margin: 3%;
+}
+
+.camara,
+.record {
+  width: 36px;
+  height: 36px;
+}
+
+.camera,
+.recording {
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.capturar {
+  height: 36px;
+  font-family: "Chakra Petch", sans-serif;
+  width: 145px;
+}
+
+.botones-listo,
+.botones-subir {
+  display: none;
+}
+
+.botones-listo button {
+  font-family: "Chakra Petch", sans-serif;
+  height: 36px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ff6161;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.listo {
+  width: 144px;
+}
+
+.botones-subir button {
+  width: 144px;
+  height: 36px;
+  font-family: "Chakra Petch", sans-serif;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997d97, inset 1px 1px 0 0 #ffffff;
+}
+
+#listo2 {
+  background: #f7c9f3;
+  margin-top: 15%;
+}
+
+.container2 {
+  display: none;
+  height: 298px;
+  width: 288px;
+  margin-top: 1%;
+  background: #e6e6e6;
+  box-shadow: inset -2px -2px 0 0 #b4b4b4, inset 2px 2px 0 0 #ffffff;
+  vertical-align: middle;
+  /* justify-content: center; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 288px 313px;
+}
